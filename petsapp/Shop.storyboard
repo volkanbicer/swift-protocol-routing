@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shop View Controller-->
+        <scene sceneID="bZf-rC-nmX">
+            <objects>
+                <viewController storyboardIdentifier="ShopViewController" id="3fL-BR-uje" customClass="ShopViewController" customModule="petsapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ECd-X2-1MD"/>
+                        <viewControllerLayoutGuide type="bottom" id="UFH-iV-Hp4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DeF-va-mft">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eag-l6-Npq">
+                                <rect key="frame" x="36" y="40" width="303" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdP-5R-rPn">
+                                <rect key="frame" x="36" y="261" width="303" height="30"/>
+                                <state key="normal" title="Cart"/>
+                                <connections>
+                                    <action selector="didTapCart:" destination="3fL-BR-uje" eventType="touchUpInside" id="yiR-ph-Gbi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eag-l6-Npq" firstAttribute="leading" secondItem="DeF-va-mft" secondAttribute="leadingMargin" constant="20" id="GVJ-T4-gD3"/>
+                            <constraint firstItem="eag-l6-Npq" firstAttribute="top" secondItem="ECd-X2-1MD" secondAttribute="bottom" constant="20" id="MQQ-LD-At8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sdP-5R-rPn" secondAttribute="trailing" constant="20" id="O4Y-DP-HDh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eag-l6-Npq" secondAttribute="trailing" constant="20" id="T0O-xc-Lh8"/>
+                            <constraint firstItem="sdP-5R-rPn" firstAttribute="leading" secondItem="DeF-va-mft" secondAttribute="leadingMargin" constant="20" id="V3D-Cd-lIM"/>
+                            <constraint firstItem="sdP-5R-rPn" firstAttribute="top" secondItem="eag-l6-Npq" secondAttribute="bottom" constant="200" id="rjb-72-Kwh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBL-xd-566" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-425" y="142"/>
+        </scene>
+        <!--Cart View Controller-->
+        <scene sceneID="fAa-3p-8wl">
+            <objects>
+                <viewController storyboardIdentifier="CardViewController" id="sUl-Ev-ajd" customClass="CartViewController" customModule="petsapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ke7-9T-EvM"/>
+                        <viewControllerLayoutGuide type="bottom" id="WEn-67-1ZS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f4K-LO-iEa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLO-zY-weJ">
+                                <rect key="frame" x="36" y="84" width="303" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZf-Bf-txR">
+                                <rect key="frame" x="156.5" y="319" width="63.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uZf-Bf-txR" firstAttribute="centerX" secondItem="f4K-LO-iEa" secondAttribute="centerX" id="0AI-W0-KWC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aLO-zY-weJ" secondAttribute="trailing" constant="20" id="BKD-j3-qt3"/>
+                            <constraint firstItem="uZf-Bf-txR" firstAttribute="centerY" secondItem="f4K-LO-iEa" secondAttribute="centerY" id="Fj7-Dr-YWk"/>
+                            <constraint firstItem="aLO-zY-weJ" firstAttribute="leading" secondItem="f4K-LO-iEa" secondAttribute="leadingMargin" constant="20" id="IA3-Ct-fSB"/>
+                            <constraint firstItem="aLO-zY-weJ" firstAttribute="top" secondItem="Ke7-9T-EvM" secondAttribute="bottom" constant="20" id="ryq-KD-bLR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ztI-Iz-vzV">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="I4G-Ih-laH">
+                            <connections>
+                                <action selector="didTapClose:" destination="sUl-Ev-ajd" id="N0C-dg-uEf"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Payment" id="cUn-xr-NAS">
+                            <connections>
+                                <action selector="didTapPayment:" destination="sUl-Ev-ajd" id="UPY-In-wnd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="fromLabel" destination="uZf-Bf-txR" id="5cE-ix-l2L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T40-pr-ffj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="887"/>
+        </scene>
+        <!--Payment View Controller-->
+        <scene sceneID="hEP-Gt-h5x">
+            <objects>
+                <viewController storyboardIdentifier="PaymentViewController" id="tbh-r5-rCw" customClass="PaymentViewController" customModule="petsapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KaG-9V-Rf4"/>
+                        <viewControllerLayoutGuide type="bottom" id="KLK-Vh-sYp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k7e-AT-3id">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2v3-pN-b8F">
+                                <rect key="frame" x="20" y="40" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2v3-pN-b8F" firstAttribute="leading" secondItem="k7e-AT-3id" secondAttribute="leading" constant="20" id="KoU-8l-5rm"/>
+                            <constraint firstItem="2v3-pN-b8F" firstAttribute="top" secondItem="KaG-9V-Rf4" secondAttribute="bottom" constant="20" id="TMs-QZ-Llk"/>
+                            <constraint firstAttribute="trailing" secondItem="2v3-pN-b8F" secondAttribute="trailing" constant="20" id="s8V-yk-ULL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KAg-hw-coe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1366" y="887"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3LN-mf-Txo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h2H-om-JAQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dez-kZ-fRZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sUl-Ev-ajd" kind="relationship" relationship="rootViewController" id="Ekc-ps-0ZW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSf-7X-3zi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="887"/>
+        </scene>
+    </scenes>
+</document>

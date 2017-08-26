@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		213125C61F5152500070257A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125C51F5152500070257A /* AppDelegate.swift */; };
-		213125C81F5152500070257A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125C71F5152500070257A /* ViewController.swift */; };
 		213125CB1F5152500070257A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213125C91F5152500070257A /* Main.storyboard */; };
 		213125CD1F5152500070257A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213125CC1F5152500070257A /* Assets.xcassets */; };
 		213125D01F5152500070257A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213125CE1F5152500070257A /* LaunchScreen.storyboard */; };
+		213125DB1F5152A80070257A /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125DA1F5152A80070257A /* Routable.swift */; };
+		213125DD1F515FEE0070257A /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125DC1F515FEE0070257A /* UIStoryboard+Extensions.swift */; };
+		213125DF1F51604B0070257A /* UIViewController+Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125DE1F51604B0070257A /* UIViewController+Routable.swift */; };
+		213125E11F5160D90070257A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125E01F5160D90070257A /* HomeViewController.swift */; };
+		213125E31F5160E50070257A /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125E21F5160E50070257A /* ShopViewController.swift */; };
+		213125E51F5160FE0070257A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125E41F5160FE0070257A /* CartViewController.swift */; };
+		213125E71F51610D0070257A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125E61F51610D0070257A /* LoginViewController.swift */; };
+		213125E91F5161E30070257A /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213125E81F5161E30070257A /* Shop.storyboard */; };
+		213125F01F5172670070257A /* HomeViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125EF1F5172670070257A /* HomeViewControllerRouter.swift */; };
+		213125F21F5173520070257A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213125F11F5173520070257A /* Login.storyboard */; };
+		213125F41F5174430070257A /* LoginViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125F31F5174430070257A /* LoginViewControllerRouter.swift */; };
+		213125F61F5175080070257A /* ShopViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125F51F5175080070257A /* ShopViewControllerRouter.swift */; };
+		213125F81F51759C0070257A /* CartViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125F71F51759C0070257A /* CartViewControllerRouter.swift */; };
+		213125FC1F5181950070257A /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125FB1F5181950070257A /* PaymentViewController.swift */; };
+		213125FE1F5181BA0070257A /* PaymentViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213125FD1F5181BA0070257A /* PaymentViewControllerRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		213125C21F5152500070257A /* petsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = petsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		213125C51F5152500070257A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		213125C71F5152500070257A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		213125CA1F5152500070257A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		213125CC1F5152500070257A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		213125CF1F5152500070257A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		213125D11F5152500070257A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213125DA1F5152A80070257A /* Routable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		213125DC1F515FEE0070257A /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
+		213125DE1F51604B0070257A /* UIViewController+Routable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Routable.swift"; sourceTree = "<group>"; };
+		213125E01F5160D90070257A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		213125E21F5160E50070257A /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		213125E41F5160FE0070257A /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		213125E61F51610D0070257A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		213125E81F5161E30070257A /* Shop.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		213125EF1F5172670070257A /* HomeViewControllerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerRouter.swift; sourceTree = "<group>"; };
+		213125F11F5173520070257A /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		213125F31F5174430070257A /* LoginViewControllerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerRouter.swift; sourceTree = "<group>"; };
+		213125F51F5175080070257A /* ShopViewControllerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewControllerRouter.swift; sourceTree = "<group>"; };
+		213125F71F51759C0070257A /* CartViewControllerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewControllerRouter.swift; sourceTree = "<group>"; };
+		213125FB1F5181950070257A /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		213125FD1F5181BA0070257A /* PaymentViewControllerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewControllerRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,108 @@
 		213125C41F5152500070257A /* petsapp */ = {
 			isa = PBXGroup;
 			children = (
-				213125C51F5152500070257A /* AppDelegate.swift */,
-				213125C71F5152500070257A /* ViewController.swift */,
-				213125C91F5152500070257A /* Main.storyboard */,
-				213125CC1F5152500070257A /* Assets.xcassets */,
-				213125CE1F5152500070257A /* LaunchScreen.storyboard */,
-				213125D11F5152500070257A /* Info.plist */,
+				213125F91F517D390070257A /* Utils */,
+				213125EA1F5170C30070257A /* Scenes */,
+				213125D91F5152810070257A /* Storyboars */,
+				213125D81F51526F0070257A /* Assets */,
+				213125D71F5152590070257A /* Supporting files */,
 			);
 			path = petsapp;
+			sourceTree = "<group>";
+		};
+		213125D71F5152590070257A /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				213125D11F5152500070257A /* Info.plist */,
+				213125C51F5152500070257A /* AppDelegate.swift */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		213125D81F51526F0070257A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				213125CC1F5152500070257A /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		213125D91F5152810070257A /* Storyboars */ = {
+			isa = PBXGroup;
+			children = (
+				213125C91F5152500070257A /* Main.storyboard */,
+				213125CE1F5152500070257A /* LaunchScreen.storyboard */,
+				213125E81F5161E30070257A /* Shop.storyboard */,
+				213125F11F5173520070257A /* Login.storyboard */,
+			);
+			name = Storyboars;
+			sourceTree = "<group>";
+		};
+		213125EA1F5170C30070257A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				213125FA1F5181840070257A /* Payment */,
+				213125EE1F5170F50070257A /* Login */,
+				213125ED1F5170E50070257A /* Cart */,
+				213125EC1F5170DC0070257A /* Shop */,
+				213125EB1F5170CF0070257A /* Home */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		213125EB1F5170CF0070257A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				213125E01F5160D90070257A /* HomeViewController.swift */,
+				213125EF1F5172670070257A /* HomeViewControllerRouter.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		213125EC1F5170DC0070257A /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				213125E21F5160E50070257A /* ShopViewController.swift */,
+				213125F51F5175080070257A /* ShopViewControllerRouter.swift */,
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
+		213125ED1F5170E50070257A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				213125E41F5160FE0070257A /* CartViewController.swift */,
+				213125F71F51759C0070257A /* CartViewControllerRouter.swift */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
+		213125EE1F5170F50070257A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				213125E61F51610D0070257A /* LoginViewController.swift */,
+				213125F31F5174430070257A /* LoginViewControllerRouter.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		213125F91F517D390070257A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				213125DA1F5152A80070257A /* Routable.swift */,
+				213125DC1F515FEE0070257A /* UIStoryboard+Extensions.swift */,
+				213125DE1F51604B0070257A /* UIViewController+Routable.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		213125FA1F5181840070257A /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				213125FB1F5181950070257A /* PaymentViewController.swift */,
+				213125FD1F5181BA0070257A /* PaymentViewControllerRouter.swift */,
+			);
+			name = Payment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213125E91F5161E30070257A /* Shop.storyboard in Resources */,
 				213125D01F5152500070257A /* LaunchScreen.storyboard in Resources */,
 				213125CD1F5152500070257A /* Assets.xcassets in Resources */,
+				213125F21F5173520070257A /* Login.storyboard in Resources */,
 				213125CB1F5152500070257A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +260,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213125C81F5152500070257A /* ViewController.swift in Sources */,
+				213125E71F51610D0070257A /* LoginViewController.swift in Sources */,
+				213125FC1F5181950070257A /* PaymentViewController.swift in Sources */,
+				213125DB1F5152A80070257A /* Routable.swift in Sources */,
+				213125DD1F515FEE0070257A /* UIStoryboard+Extensions.swift in Sources */,
+				213125FE1F5181BA0070257A /* PaymentViewControllerRouter.swift in Sources */,
+				213125F81F51759C0070257A /* CartViewControllerRouter.swift in Sources */,
 				213125C61F5152500070257A /* AppDelegate.swift in Sources */,
+				213125E51F5160FE0070257A /* CartViewController.swift in Sources */,
+				213125DF1F51604B0070257A /* UIViewController+Routable.swift in Sources */,
+				213125E31F5160E50070257A /* ShopViewController.swift in Sources */,
+				213125F41F5174430070257A /* LoginViewControllerRouter.swift in Sources */,
+				213125E11F5160D90070257A /* HomeViewController.swift in Sources */,
+				213125F01F5172670070257A /* HomeViewControllerRouter.swift in Sources */,
+				213125F61F5175080070257A /* ShopViewControllerRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
